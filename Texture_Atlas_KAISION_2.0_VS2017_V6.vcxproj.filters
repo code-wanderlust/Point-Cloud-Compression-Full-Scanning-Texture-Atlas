@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\My_Codes">
+      <UniqueIdentifier>{af49f7bd-42b1-4e83-a639-d164d4377ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\My_Codes">
+      <UniqueIdentifier>{5d26d23c-56b0-4d0a-aa62-06bff1d3857e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-way Texture Atlas">
+      <UniqueIdentifier>{1ec88041-2f5d-4772-b88a-c68bbb6409e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\3-way Texture Atlas">
+      <UniqueIdentifier>{0ccfcbb0-849a-4fbd-9403-6599e7b41f84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Texture_Atlas_KAISION_2.0_VS2017_V6.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Atlas_KAISION_2.0_VS2017_V6Dlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Funtion_IO.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="JANG_Xrunset3dShort.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_DoCube_X_Color.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Final_Version.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner_Base.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner_Color.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner_Distance.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Scanner_Slice.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Segmentation.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel_Slice_Scanned_Data.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Map.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_EI_DCT.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner_Connectivity.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner_DTW.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Color_Sequence_Aligner_PWEI.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_DTW.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Voxel_Texture_Atlas_3_Direction.h">
+      <Filter>헤더 파일\3-way Texture Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="VCL_Image_Interpolation.h">
+      <Filter>헤더 파일\My_Codes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Texture_Atlas_KAISION_2.0_VS2017_V6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Atlas_KAISION_2.0_VS2017_V6Dlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Funtion_IO.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="JANG_Xrunset3dShort.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_DoCube_X_Color.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Final_Version.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner_Base.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner_Color.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner_Distance.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Scanner_Slice.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Segmentation.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel_Slice_Scanned_Data.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Map.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_EI_DCT.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner_Connectivity.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner_DTW.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Color_Sequence_Aligner_PWEI.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_DTW.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Voxel_Texture_Atlas_3_Direction.cpp">
+      <Filter>소스 파일\3-way Texture Atlas</Filter>
+    </ClCompile>
+    <ClCompile Include="VCL_Image_Interpolation.cpp">
+      <Filter>소스 파일\My_Codes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TextureAtlasKAISION20VS2017V6.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TextureAtlasKAISION20VS2017V6.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Texture_Atlas_KAISION_2.0_VS2017_V6.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
