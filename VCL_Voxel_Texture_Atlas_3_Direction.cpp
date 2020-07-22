@@ -90,6 +90,11 @@ void VCL_Voxel_Texture_Atlas_3_Direction::generate_Voxel_Texture_Atlas_3_Directi
 			&voxel_map_idx[k],//CKvMatrixInt *out_voxel_map_idx_or_NULL,
 			&mask[k],//CKvMatrixBool *out_mask_or_NULL,
 			&Max_mask);//CKvMatrixBool *out_Max_mask_or_NULL);
+
+		//LCKvIO_FileJpg iof_jpg;
+		//CKvString str;
+		//str.fm_Format("%d_img.bmp", k);
+		//iof_jpg.si_Save_Image(str, false, &voxel_map[k]);
 	}
 
 
